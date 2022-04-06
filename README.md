@@ -1,5 +1,5 @@
 
-# DNAAnalyzer PoC
+# DNAPush
 
 ###### Software stack
 - Axios HttpClient
