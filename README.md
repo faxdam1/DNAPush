@@ -1,9 +1,5 @@
 
-# DNAPush
-
-###### Software stack
-- Axios HttpClient
-
+# DNAPush (Bulk)
 
 ###### Development Enviroment
 - NodeJS 14.0
