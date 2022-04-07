@@ -28,7 +28,7 @@ exports.handler = async function (event, context) {
         "path": "/dna/_bulk",
         "headers": {
             "content-type": "application/json",
-            "authorization": "Basic " + new Buffer(user + ':' + password).toString('base64'),
+            "authorization": "Basic " + Buffer.from(user + ':' + password).toString("base64"),
             "cache-control": "no-cache",
             "postman-token": "5224e6ec-2ec5-32e3-1983-944d10a58f12"
         }
